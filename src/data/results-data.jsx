@@ -1,0 +1,92 @@
+export const RESULTS = [
+  {
+    year: 2027,
+    status: "upcoming",
+    note: "Judging starts after submissions close. Register now to be part of this edition.",
+  },
+  {
+    year: 2026,
+    status: "published",
+    stats: { projects: 24, participants: 61 },
+    winners: [
+      {
+        rank: 1,
+        name: "StudyGrid",
+        team: "Team Nile",
+        score: 94,
+        summary: "Builds a weekly revision plan from your exam dates and how confident you feel in each subject.",
+        breakdown: [
+          { label: "Helpfulness", value: 96 },
+          { label: "Code quality", value: 92 },
+          { label: "Creativity", value: 93 },
+          { label: "README", value: 95 },
+        ],
+      },
+      {
+        rank: 2,
+        name: "LabMate",
+        team: "Delta Coders",
+        score: 89,
+        summary: "Turns raw lab measurements into clean tables and graphs, with unit checks along the way.",
+        breakdown: [
+          { label: "Helpfulness", value: 90 },
+          { label: "Code quality", value: 88 },
+          { label: "Creativity", value: 87 },
+          { label: "README", value: 91 },
+        ],
+      },
+      {
+        rank: 3,
+        name: "FlashPath",
+        team: "Py Pioneers",
+        score: 85,
+        summary: "Spaced-repetition flashcards that decide what to show you next based on what you missed.",
+        breakdown: [
+          { label: "Helpfulness", value: 86 },
+          { label: "Code quality", value: 83 },
+          { label: "Creativity", value: 84 },
+          { label: "README", value: 87 },
+        ],
+      },
+      {
+        rank: 4,
+        name: "NoteSift",
+        team: "Team Alpha",
+        score: 81,
+        summary: "Searches your lecture notes by concept instead of exact words.",
+        breakdown: [
+          { label: "Helpfulness", value: 82 },
+          { label: "Code quality", value: 79 },
+          { label: "Creativity", value: 80 },
+          { label: "README", value: 83 },
+        ],
+      },
+      {
+        rank: 5,
+        name: "GradeCalc",
+        team: "Byte Club",
+        score: 77,
+        summary: "Shows what score you need on the final to hit the grade you want.",
+        breakdown: [
+          { label: "Helpfulness", value: 80 },
+          { label: "Code quality", value: 75 },
+          { label: "Creativity", value: 72 },
+          { label: "README", value: 79 },
+        ],
+      },
+      {
+        rank: 6,
+        name: "QuizForge",
+        team: "Loop Lords",
+        score: 74,
+        summary: "Generates practice quizzes from a chapter outline you paste in.",
+        breakdown: [
+          { label: "Helpfulness", value: 75 },
+          { label: "Code quality", value: 72 },
+          { label: "Creativity", value: 74 },
+          { label: "README", value: 76 },
+        ],
+      },
+    ],
+  },
+];

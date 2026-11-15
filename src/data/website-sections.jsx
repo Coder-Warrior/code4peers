@@ -89,6 +89,6 @@ export const CRITERIA = [
 
 export const TEAM = [
   { name: "Ali Fathi", role: "Founder" },
-  { name: "Ziad Hatem", role: "Website development" },
+  { name: "Ali Fathi", role: "Website development" },
   { name: "Omar Nashaat", role: "Marketing & outreach" },
 ];

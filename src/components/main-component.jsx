@@ -86,7 +86,7 @@ export default function MainComponent() {
                 {link.label}
               </a>
             ))}
-            <Link to="/results" >Results</Link>
+            <Link to="/results-guide" >Results</Link>
           </nav>
 
           <div className="c4p-header__actions">
@@ -132,7 +132,7 @@ export default function MainComponent() {
 
 
             ))}
-            <Link to="/results" >Results</Link>
+            <Link to="/results-guide" >Results</Link>
             <a
             className="c4p-cta"
             href={REGISTER_URL}
